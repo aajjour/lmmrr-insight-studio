@@ -14,3 +14,7 @@ Purpose: analysis software for Gaussian linear mixed-model (LMM) residual diagno
 - Bypass publication/push steps if `results/parity/cross_language_results.json` is not `MATCHED_NONBOOTSTRAP_PROTOTYPE_PASS` or if published-source parity is unverified and release messaging would imply it.
 
 Run `./run_mac.sh all`; if `Rscript` is unavailable, report partial validation, not success. Always report underlying data and any mismatched numeric entries.
+
+## R-backed Python published engine
+
+Use `lmmrr_crosslang.published_rr.run_published_rr` for **actual published R** recursive residuals called from Python. The published code is MIT-licensed and versioned in `reference/published_r/lmmRRdiag/`. Do not describe the separate `lmmrr_crosslang.core` as the validated published native-Python algorithm. Never claim bootstrap was run or infer p-values from uncalibrated charts. Cite DOI 10.1080/00949655.2026.2748404.

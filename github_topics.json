@@ -1,0 +1,24 @@
+{
+  "names": [
+    "model-diagnostics",
+    "diagnostic-tools",
+    "statistical-diagnostics",
+    "residual-diagnostics",
+    "linear-mixed-models",
+    "mixed-effects-models",
+    "recursive-residuals",
+    "model-misspecification",
+    "model-checking",
+    "model-validation",
+    "goodness-of-fit",
+    "statistical-modeling",
+    "hierarchical-models",
+    "longitudinal-data",
+    "cusum",
+    "bootstrap",
+    "r-package",
+    "python",
+    "data-visualization",
+    "interactive-dashboard"
+  ]
+}

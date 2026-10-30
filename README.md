@@ -1,6 +1,26 @@
 # LMM RR Insight Studio — R and Python
 
 
+## Python API: the actual published recursive-residual engine (R-backed)
+
+**Python users can now call the original published `lmmRRdiag` recursive-residual implementation** from Python, without rewriting the mathematics or manually using R. The bridge uses `Rscript`, `lme4`, and the original MIT-licensed R source included under `reference/published_r/lmmRRdiag/`. It is **R-backed**, not a pure-Python translation, and does not run bootstrap.
+
+```python
+from lmmrr_crosslang import inspect_published_rr, run_published_rr
+print(inspect_published_rr()["signature"])
+result = run_published_rr(
+    "fixtures/sleepstudy.csv",
+    "y ~ x + (1 | group)",
+    output_dir="results/published_python_rr/sleepstudy_RI",
+)
+print(result["numeric_csv"])
+print(result["numeric_html"])
+```
+
+To test the bridge on your Mac before publication, run `./run_python_rr_mac.sh`. This invokes the real published R recursive residuals and **no bootstrap**. See [Python published-R engine instructions](docs/PYTHON_PUBLISHED_R_ENGINE.md). Original algorithm citation: [DOI 10.1080/00949655.2026.2748404](https://doi.org/10.1080/00949655.2026.2748404). The earlier paired Python/R prototype remains independently labeled; it is not represented as a native port of the published algorithm.
+
+
+
 ## Cite the published methodology
 
 **Bani-Mustafa, A., & Al-Nasser, A. D. (2026).**

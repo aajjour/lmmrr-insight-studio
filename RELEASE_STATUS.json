@@ -2,7 +2,10 @@
   "candidate": "0.3.0rc1",
   "date": "2026-10-30",
   "published_paper_doi": "10.1080/00949655.2026.2748404",
-  "real_datasets": ["sleepstudy", "Orthodont"],
+  "real_datasets": [
+    "sleepstudy",
+    "Orthodont"
+  ],
   "fitted_models": 4,
   "indexed_configurations": 12,
   "python_unit_test_gate": "PASS_LOCAL",
@@ -14,5 +17,8 @@
   "bootstrap_gate": "OUT_OF_SCOPE",
   "global_significance_claim": "PROHIBITED",
   "public_native_python_rr_port_release": "BLOCKED",
-  "github_push": "NOT_PERFORMED"
+  "github_push": "NOT_PERFORMED",
+  "published_R_python_bridge": "added; real-Mac smoke test required before publication",
+  "published_R_python_bridge_bootstrap_executed": false,
+  "native_python_published_rr_parity": "NOT_ESTABLISHED"
 }
