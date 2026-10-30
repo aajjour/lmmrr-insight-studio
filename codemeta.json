@@ -1,0 +1,25 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "LMM RR Cross-Language Diagnostic Studio \u2014 non-bootstrap prototype",
+  "version": "0.3.0rc1",
+  "programmingLanguage": [
+    "R",
+    "Python"
+  ],
+  "description": "Experimental R/Python matched Cholesky innovations and indexed CUSUM diagnostics for linear mixed models. No bootstrap or calibrated misspecification inference.",
+  "keywords": [
+    "LMM",
+    "linear mixed models",
+    "recursive residuals",
+    "model diagnostics",
+    "Cholesky innovations",
+    "CUSUM",
+    "mixed effects",
+    "longitudinal data",
+    "Python",
+    "R"
+  ],
+  "referencePublication": "https://doi.org/10.1080/00949655.2026.2748404",
+  "citation": "https://doi.org/10.1080/00949655.2026.2748404"
+}

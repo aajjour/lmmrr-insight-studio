@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
+results/
+*.egg-info/
+build/
+dist/
+.Rhistory
+.Rproj.user/
+
+# Local development
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+.env
+.env.*
+*.log
+
+# Local archives
+*.zip
+*.tar.gz

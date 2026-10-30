@@ -1,0 +1,21 @@
+model,process,p_value,calibration,scope,b_refits,origin,family_id,family_size,demo_signal
+A · Baseline illustration,mean_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_0,4,false
+A · Baseline illustration,cluster_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_0,4,false
+A · Baseline illustration,serial_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_0,4,false
+A · Baseline illustration,blup_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_0,4,false
+B · Mean drift illustration,mean_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_1,4,true
+B · Mean drift illustration,cluster_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_1,4,false
+B · Mean drift illustration,serial_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_1,4,false
+B · Mean drift illustration,blup_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_1,4,false
+C · Grouping illustration,mean_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_2,4,false
+C · Grouping illustration,cluster_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_2,4,true
+C · Grouping illustration,serial_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_2,4,false
+C · Grouping illustration,blup_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_2,4,false
+D · Serial illustration,mean_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_3,4,false
+D · Serial illustration,cluster_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_3,4,false
+D · Serial illustration,serial_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_3,4,true
+D · Serial illustration,blup_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_3,4,false
+E · Random-slope illustration,mean_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_4,4,false
+E · Random-slope illustration,cluster_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_4,4,false
+E · Random-slope illustration,serial_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_4,4,false
+E · Random-slope illustration,blup_indexed,,synthetic_only,illustrative,0,synthetic_demo,synthetic_4,4,true

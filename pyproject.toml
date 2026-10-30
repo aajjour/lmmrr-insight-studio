@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lmmrr-crosslang-prototype"
+version = "0.3.0rc1"
+description = "R and Python cross-language indexed Cholesky innovation process prototype for linear mixed model diagnostics (non-bootstrap, uncalibrated)"
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "LMM RR Insight Studio contributors"}]
+dependencies = ["numpy>=1.24"]
+keywords = ["LMM", "linear mixed models", "mixed effects", "recursive residuals", "indexed residuals", "Cholesky innovations", "CUSUM", "model diagnostics", "heteroscedasticity", "random effects", "longitudinal data", "R", "Python", "cross-language validation"]
+classifiers = ["Development Status :: 3 - Alpha", "Intended Audience :: Science/Research", "Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Mathematics"]
+
+[project.scripts]
+lmmrr-crosslang = "lmmrr_crosslang.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["lmmrr_crosslang*"]

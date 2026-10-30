@@ -1,0 +1,21 @@
+name: Non-bootstrap prototype tests (does not verify published algorithm)
+on:
+  push:
+  pull_request:
+jobs:
+  python-and-r:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python package
+        run: python -m pip install -e .
+      - name: Python selftests
+        run: ./run_mac.sh selftest
+      - name: R–Python prototype parity
+        run: ./run_mac.sh parity

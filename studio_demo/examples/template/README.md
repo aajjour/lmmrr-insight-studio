@@ -1,0 +1,1 @@
+CSV HEADER TEMPLATES ONLY. Populate with genuine backend outputs; examples/demo contains synthetic traces. Global p-values must be computed by the published calibrated LMM RR implementation, not this interface.

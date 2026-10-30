@@ -1,0 +1,105 @@
+{
+  "source": "reference/published_r/lmmRRdiag",
+  "files": [
+    {
+      "path": "R/bootstrap.R",
+      "sha256": "4f222ae818e6bee855e333e450ffa97f6cbf337ccaaaf5820bdee3790d8f1e80"
+    },
+    {
+      "path": "R/package.R",
+      "sha256": "dd3f4e4b97e021f3b394e25a4c96eca0ed7e0d31443ee84a6a35752c637fce1f"
+    },
+    {
+      "path": "R/recursive_residuals.R",
+      "sha256": "b1c6719beac92642f2021491f513359e58e39e52549e4384e69b98dd6610a360"
+    },
+    {
+      "path": "R/standard_audit.R",
+      "sha256": "0b046a427acaf6e69e9e5e9a11635d1a3619d27a724d0be9b44697c870711ca3"
+    },
+    {
+      "path": "R/statistics.R",
+      "sha256": "8db8fb8cfea2602850d051ae23280a6c63210e711ed27c7541139b442b6d3cc0"
+    },
+    {
+      "path": "DESCRIPTION",
+      "sha256": "472c3fe483c99c75473faaa869f4f8d31360f11a2c17e440d290ba5a9bc06604"
+    },
+    {
+      "path": "NAMESPACE",
+      "sha256": "7694bd14155d38a0849be204ed588f8287760a1c4bde46740f33294c8945c84b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c6aaf2d07aacfc8a1fa09bbeca1dd91dec8a544ca8ed38c8b975559cd2f0af19"
+    },
+    {
+      "path": "man/rr_acf1_pooled_abs.Rd",
+      "sha256": "10bdd09f95fd885198a4c27429ff508338bd4e0bc11c415f4e551a66e291bc97"
+    },
+    {
+      "path": "man/rr_bootstrap_family.Rd",
+      "sha256": "f7c5087e9bd5eee2a5d81b5b251908c151835eecd801a826f91d223da7ab0636"
+    },
+    {
+      "path": "man/rr_bootstrap_pvalue.Rd",
+      "sha256": "580e7fe4e3bd944fd7dd691beb57d6c0b05e5b73d7c5c11693a76e38b493431d"
+    },
+    {
+      "path": "man/rr_cvm.Rd",
+      "sha256": "cfcccba2f7f9dfd56e179687d1426d42f1016d14c94a7822599dc8d9326a2e99"
+    },
+    {
+      "path": "man/rr_factor_contrast_sup.Rd",
+      "sha256": "e60d832f76c3c850b38347fc9f6f59e54453bd52df0eb3f4a82aa6fd2c20e1d3"
+    },
+    {
+      "path": "man/rr_group_sup.Rd",
+      "sha256": "f2517d9b7077432c60ac73fcacb867564c55cb57cf323292e7060d8fd6aba29e"
+    },
+    {
+      "path": "man/rr_indexed_process.Rd",
+      "sha256": "5ae5f55a41a472feee1e26eb4b660d1d3d41c7f910767c08b8ac6fb59aff3e52"
+    },
+    {
+      "path": "man/rr_recursive_residuals_lme.Rd",
+      "sha256": "55f8a450b5383dcb05a334c6eb252de4112eebbd072e1f3a74777d4f82571265"
+    },
+    {
+      "path": "man/rr_recursive_residuals_lmer.Rd",
+      "sha256": "7b67365cc4ec742cc9d579c7af98686130bb20bceccb8167f02097403a6e3079"
+    },
+    {
+      "path": "man/rr_run_empirical_audit.Rd",
+      "sha256": "94870ce57b34e072ac0df4c463043a2257a7c51d6603163859f14f721f7b29b1"
+    },
+    {
+      "path": "man/rr_run_family_audit.Rd",
+      "sha256": "cc5bb5feb29b039f6170299569290016724bd91710c0557de1cd03af2f84182a"
+    },
+    {
+      "path": "man/rr_time_cusum.Rd",
+      "sha256": "c949a9fb5d61dfd2676a64fd84e24baf14d93ef889f1272c92a318eb260f73dc"
+    },
+    {
+      "path": "man/rr_time_reference.Rd",
+      "sha256": "5121f78f7a4be14afe1a060607516b49d6dbb7ed9c71a8df5742c69f2e5f632e"
+    },
+    {
+      "path": "man/rr_time_sup.Rd",
+      "sha256": "b9eba8d1b16d6670cb1504630122e9cc40088e88782d67b09c2fd86953314452"
+    },
+    {
+      "path": "man/rr_time_sup_std.Rd",
+      "sha256": "1204f7a1b2411fdf6784bc51daeaa4c082aa6ea568c0f13e6339e658da5bbe64"
+    },
+    {
+      "path": "man/rr_write_empirical_audit_outputs.Rd",
+      "sha256": "e6fae6054163006569b1b9d35b10a069aed41417bade2a2540d834baa7a30bde"
+    }
+  ],
+  "license": "License: MIT + file LICENSE",
+  "bootstrap_executed": false,
+  "bootstrap_validated": false,
+  "python_published_algorithm_parity": false
+}

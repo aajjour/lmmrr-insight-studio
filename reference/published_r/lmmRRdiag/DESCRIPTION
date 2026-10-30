@@ -1,0 +1,39 @@
+Package: lmmRRdiag
+Type: Package
+Title: Indexed Recursive Residual Diagnostics for Linear Mixed Models
+Version: 0.2.3
+Authors@R: c(
+    person("Ahmed", "Bani-Mustafa", email = "a.mustafa@au.edu.kw", role = c("aut", "cre")),
+    person("Amjad D.", "Al-Nasser", role = "aut")
+    )
+Description: Research-companion implementation of indexed recursive residual
+    diagnostics for Gaussian linear mixed models. The package computes marginal
+    Cholesky recursive residuals for models fitted with lme4 (via
+    rr_recursive_residuals_lmer()) or nlme (via rr_recursive_residuals_lme(),
+    supporting R-side correlation structures such as CAR(1) and AR(1)), indexed
+    cumulative residual processes (including the variance-standardised
+    time-indexed CUSUM for unbalanced follow-up), scalar diagnostic
+    summaries with closed-form first-order null reference bands, and
+    refitting parametric-bootstrap p-values, including family-wise (min-p)
+    calibration, for both model classes. It also contains
+    reproducibility drivers for the empirical examples in the companion
+    manuscript.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: R (>= 4.1.0)
+Imports:
+    lme4,
+    nlme,
+    Matrix,
+    stats,
+    utils,
+    tibble,
+    dplyr,
+    readr
+Suggests:
+    testthat (>= 3.0.0),
+    plm
+Config/testthat/edition: 3
+LazyData: true
